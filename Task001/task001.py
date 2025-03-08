@@ -17,8 +17,7 @@ import seaborn as sns
 nltk.download('punkt')
 
 # Embed dataset directly
-data = 
-    {
+data = {
   "queries": [
     "What is AI?", "How does NLP work?", "What is machine learning?", "Define deep learning", "What is a chatbot?",
     "How does a neural network function?", "Explain supervised learning", "What are word embeddings?", "What is reinforcement learning?", "How do transformers work?",
@@ -60,7 +59,6 @@ data =
     "A decision boundary separates different classes in a classification problem.", "The ROC-AUC score is a metric used to evaluate the performance of binary classification models.", "Feature engineering is the process of using domain knowledge to extract features that improve model performance.", "The bias-variance dilemma is the challenge of balancing model complexity and generalization.", "Reinforcement learning in AI is used to optimize decision-making over time."
   ]
 }
-
 
 queries = data["queries"]
 responses = data["responses"]
