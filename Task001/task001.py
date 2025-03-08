@@ -17,7 +17,7 @@ import seaborn as sns
 nltk.download('punkt')
 
 # Embed dataset directly
-data = {
+data = 
     {
   "queries": [
     "What is AI?", "How does NLP work?", "What is machine learning?", "Define deep learning", "What is a chatbot?",
@@ -61,7 +61,6 @@ data = {
   ]
 }
 
-}
 
 queries = data["queries"]
 responses = data["responses"]
